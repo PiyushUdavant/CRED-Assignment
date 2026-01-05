@@ -49,12 +49,6 @@ class AppTextStyles {
     fontWeight: FontWeight.w600,
   );
 
-  static TextStyle s14W600Grey = GoogleFonts.inter(
-    fontSize: 14,
-    fontWeight: FontWeight.w600,
-    color: grey600,
-  );
-
   static TextStyle s16H120W700 = GoogleFonts.inter(
     fontSize: 16,
     fontWeight: FontWeight.w700,

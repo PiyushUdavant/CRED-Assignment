@@ -14,7 +14,7 @@ class BillsCardWidget extends StatelessWidget {
     super.key,
     required this.card,
     this.onPressed,
-    required this.removeMargins,
+    this.removeMargins = false,
   });
 
   Color _parseColor(String? colorString){
@@ -150,7 +150,7 @@ class BillsCardWidget extends StatelessWidget {
                             ElevatedButton(
                               onPressed: onPressed,
                               style: ElevatedButton.styleFrom(
-                                minimumSize: const Size(100, 40),
+                                minimumSize: const Size(120, 40),
                                 backgroundColor: blackColor,
                                 foregroundColor: whiteColor,
                                 padding: const EdgeInsets.symmetric(
